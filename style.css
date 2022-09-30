@@ -10,7 +10,12 @@
 body {
     display: flex;
     flex-direction: column;
-}
+    height: 100vh;
+    margin: 0;
+}   
+    .body{
+
+    }
 
 /*Aligning the list for header using flexbox*/
 ul{
@@ -95,13 +100,13 @@ ul{
 
         .cards {
             display: flex;
-            padding-top: ;
-            border-radius: 30px 30px 30px 20px;
+            padding-top: 0px;
             gap: 10px;
         }
             .card {   
                 width: 100px;
                 height: 150px;
+                border-radius: 15px 15px 15px 15px;
                 border: solid rgb(11, 45, 236) 2px;
                 gap: 20px;
             }
@@ -118,3 +123,33 @@ ul{
                         text-align: center;
                         gap: 20px;
                     }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background: #e5e7eb;
+    
+}
+    em{
+        display: flex;
+        width: 500px;
+        text-align: left;
+        font-size: 36px;
+        font-weight: 100;
+        color: #1F2937;
+        align-self: center;
+    }
+
+        .customer{
+            display: flex;
+            width: fit-content;
+            margin-left: 10px;
+            align-self: flex-end;
+            
+        }
+        
+
+.product_signup {
+    display: flex;
+    background: #3882f6;
+}
